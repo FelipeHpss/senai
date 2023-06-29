@@ -1,0 +1,398 @@
+.capa{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(0, 0, 0);
+    justify-content: none;
+}
+.inicio {
+    align-items: center;
+    display: flex;
+    padding: 10vh;
+    background-color: black;
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+.direita button {
+    border: #000000;
+    background-color: #db125c;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: large;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h3 {
+    color: #ffffff;
+}
+.mockup{
+width: 10vw;
+}
+.direita{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+.direita h2{
+ font-size:xx-large;
+}
+.direita p{
+    font-size: medium;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .planos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .plano {
+    width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #2d2929;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .plano_p {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+    .plano_h1{
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: rgb(0, 0, 0);
+}
+  .plano_h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .contato_marts{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+  }
+  .plano_h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  .plano_h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .plano p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .plano .preco {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .plano .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db125c;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+ .escolher{
+    text-align: center;
+    background-color: black;
+ }
+ .cta-container {
+    background-color:rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db125c;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.cta-container {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.cta-description {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.benefits-list-item {
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #db125c;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.benefits-list-item {
+    margin-bottom: 10px;
+}
+subscription-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .subscription-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .subscription-form input[type="text"],
+  .subscription-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .subscription-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #45a049;
+  }
+
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-list li {
+    margin-bottom: 10px;
+  }
+  
+  .benefits-list li:before {
+    content: "✓";
+    color: green;
+    margin-right: 5px;
+  }
+.banner2{
+    color: white;
+    background-image: none;
+    background-repeat:no-repeat;
+    height: 80vh;
+    padding: 50px;
+    background-size: cover;
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.inicial {
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px;
+    text-align: center;
+    background-image:url(imagens/fundonovo2.jpg);
+}
+
+.button {
+    display: inline-block;
+    background-color:#db125c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#sobre {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+.planos {
+    padding: 50px;
+}
+.banner {
+    color: white;
+    background-image: none;
+    background-repeat:no-repeat;
+    height: 80vh;
+    padding: 50px;
+    background-size: cover;
+}
+
+.destination-list li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.destination-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+#contato {
+    background-color: #000000;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #db125c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.baioco{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+
+}
+ul{
+    color: white;
+}
+li{
+    color: white;
+}
